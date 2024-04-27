@@ -13,7 +13,7 @@ body{
     height: 25%;
     width: 100%;
     background-color: #1F2937;
-    padding: 10px 50px 50px 25px;
+    padding: 10px 100px 100px 100px;
 }
 
 .header-nav{
@@ -32,7 +32,7 @@ body{
 
 a, .header-text {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     color: #E5E7EB;
 }
 
@@ -60,7 +60,7 @@ h1 {
     color: #F9FAF8;
 }
 
-.header-buttom{
+.header-button{
     background-color: #3882F6;
     border-radius: 10px;
     width: 100px;
@@ -76,9 +76,11 @@ h1 {
     background-color: gray;
     display: flex;
     align-items: center;
-    justify-content: center;
+    text-align: center;
+    padding: 100px;
 
 }
+
 
 .main{
     display: flex;
@@ -133,6 +135,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 50px;
 }
 
 .text-container-section-2 {
@@ -141,10 +144,11 @@ h1 {
 }
 
 .text-up-section-2 {
-    font-size: 36px;
+    font-size: 25px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    text-align: justify;
 }
 
 .text-down-section-2 {
@@ -152,3 +156,52 @@ h1 {
     font-weight: bold;
 }
 
+.section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-section-3 {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 30px 100px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.text-section-3 {
+    color:#F9FAF8;
+}
+
+.text-up-section-3 {
+    font-weight: bold;
+}
+
+.text-down-section-3 {
+    font-size: smaller;
+}
+
+.button-section-3 {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 25px;
+}
+
+.text-footer{
+    text-align: center;
+    color: #E5E7EB;
+    font: 18px;
+}
