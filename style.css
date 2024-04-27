@@ -80,6 +80,11 @@ h1 {
 
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
 .section-1 {
     display: flex;
     flex-direction: column;
@@ -121,5 +126,29 @@ h1 {
     color: gray;
     text-align: justify;
     text-align-last: center;
+}
+
+.section-2 {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container-section-2 {
+    max-width: 590px;
+    margin: 25px;
+}
+
+.text-up-section-2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.text-down-section-2 {
+    text-align: end;
+    font-weight: bold;
 }
 
